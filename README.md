@@ -2,15 +2,16 @@
 
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Libraries](https://img.shields.io/badge/Libraries-HuggingFace%20%7C%20FAISS%20%7C%20Scikit--learn-orange.svg)
-![Status](https://img.shields.io/badge/Status-Complete-green.svg)
 
-A high-performance semantic search engine for the Gutenberg corpus, engineered to deliver fast, contextually-aware results. This project leverages a state-of-the-art **Retriever-Reranker** architecture, demonstrating a practical application of advanced NLP and Information Retrieval techniques. Developed as a graduate-level project for the Master of Science in Data Science program at the University of Maryland, College Park.
+Dataset Link: https://shibamoulilahiri.github.io/gutenberg_dataset.html
+
+A semantic search engine for the Gutenberg corpus, engineered to deliver fast, contextually-aware results. This project leverages a **Retriever-Reranker** architecture, demonstrating a practical application of advanced NLP and Information Retrieval techniques.
 
 ---
-## 🎯 About The Project
+## About The Project
 Traditional keyword search is fast but lacks contextual understanding. Pure semantic search understands context but struggles with speed and out-of-vocabulary (OOV) terms. This project builds a hybrid system that captures the strengths of both paradigms.
 
-The core of this project is a **two-stage search pipeline** that efficiently queries a dataset of over 1 million paragraphs extracted from 1,000 classic books.
+The core of this project is a **two-stage search pipeline** that efficiently queries a dataset of over 1 million paragraphs extracted from 1000 classic books from the Gutenber Dataset. The dataset contains 3000 books but for quicker execution time due to limited resources, the code uses 1000 books.
 
 ### Project Architecture
 
@@ -22,7 +23,7 @@ The core of this project is a **two-stage search pipeline** that efficiently que
 This hybrid approach solves the critical challenges of search speed, relevance, and the handling of unknown concepts.
 
 ---
-## 🛠️ Technologies & Core Concepts
+## Technologies & Core Concepts
 This project demonstrates proficiency in a range of essential data science and NLP tools and concepts:
 
 * **Python 3.9+**
@@ -37,7 +38,7 @@ This project demonstrates proficiency in a range of essential data science and N
 * **Core Libraries:** Scikit-learn, NumPy, Pickle.
 
 ---
-## 🚀 Performance & Demo
+## Performance & Demo
 The final Retriever-Reranker model provides a significant improvement in both speed and relevance over naive approaches.
 
 * **Speed:** Initial query encoding takes a few seconds on a CPU, with all subsequent searches performing **sub-second retrieval and reranking**.
@@ -96,12 +97,12 @@ No relevant paragraphs found for this query.
 
 ---
 ## 💡 Key Skills & Learnings
-This project was an opportunity to move beyond basic NLP tutorials and engage with the practical challenges of building a real-world search system.
+This project was an opportunity to move beyond basic NLP tutorials and engage with the practical challenges of building an actual search system.
 
-* **Architectural Design:** I designed and implemented a sophisticated **Retriever-Reranker pipeline**, demonstrating an understanding of how to balance trade-offs between speed (TF-IDF) and semantic accuracy (Transformers). This is a common pattern in production MLOps.
+* **Architectural Design:** I designed and implemented a sophisticated **Retriever-Reranker pipeline**, demonstrating an understanding of how to balance trade-offs between speed (TF-IDF) and semantic accuracy (Transformers).
 * **End-to-End NLP Workflow:** I handled the entire NLP pipeline: sourcing raw data, extensive text preprocessing, training a custom BPE tokenizer, building multiple complex indexes (sparse TF-IDF and dense FAISS), and developing the final application logic.
 * **Performance Optimization:** I identified and solved critical performance bottlenecks. The initial 15-second search time was reduced to sub-second speeds by implementing a **FAISS** index. The multi-hour model indexing time was reduced to minutes by leveraging **GPU acceleration in a cloud environment (Google Colab)**.
-* **Problem Analysis:** I diagnosed and explained complex model behaviors, such as the semantic model's failure on OOV terms (`cyberpunk`) and its anomalous but predictable results for gibberish queries. This showcases strong analytical and debugging skills.
+* **Problem Analysis:** I diagnosed and explained complex model behaviors, such as the semantic model's failure on OOV terms (`cyberpunk`), its anomalous but predictable results for gibberish queries and for empty queries.
 
 ---
 ## ⚙️ Getting Started
@@ -127,7 +128,13 @@ Follow these steps to set up and run the project locally.
     *(Note: A `requirements.txt` file should be created and added to the repository by running `pip freeze > requirements.txt`)*
 
 ### Usage
-Once the environment is set up and all index files are in place, run the main search engine application:
+Once the environment is set up, run the code which creates the indexes. You may run this in google colab for quicker results. (Estimated execution time on free colab tier: 1hour)
+
+```bash
+python create_indexes.py
+```
+When all index files are in place, run the main search engine application:
+
 ```bash
 python search_engine.py
 ```
