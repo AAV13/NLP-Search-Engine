@@ -1,0 +1,5 @@
+sentence_transformers
+requests
+bs4
+tqdm
+faiss-cpu

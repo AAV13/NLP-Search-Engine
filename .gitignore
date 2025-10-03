@@ -1,0 +1,18 @@
+# Data folder
+Gutenberg_original/
+
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated Index and Cache Files
+*.pkl
+*.json
+*.npy
+*.faiss
+*.zip
+bpe-tokenizer/
+final_indexes/
