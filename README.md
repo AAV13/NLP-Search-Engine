@@ -92,6 +92,11 @@ Enter search query: cyberpunk
 Search completed in 4.9155 seconds.
 
 No relevant paragraphs found for this query.
+
+Enter search query:
+
+--- Searching for: '' ---
+Query is empty. Please try again.
 ```
 </details>
 
