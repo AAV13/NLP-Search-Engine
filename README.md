@@ -16,15 +16,15 @@ The core of this project is a **two-stage search pipeline** that efficiently que
 ### Project Architecture
 
 
-1.  **Fast Retrieval (The Librarian):** A lightweight, BPE-tokenized **TF-IDF model** first scans the entire corpus. It acts as a fast retriever, identifying a broad set of candidate documents (top ~100) based on keyword relevance. This stage ensures that even OOV terms like `cyberpunk` are handled gracefully by breaking them down into sub-words (`engine`) and finding a relevant search space.
+1.  **Fast Retrieval (The Librarian):** A lightweight, BPE-tokenized **TF-IDF model** first scans the entire corpus. It acts as a fast retriever, identifying a broad set of candidate documents (top ~100) based on keyword relevance. This stage ensures that even OOV terms like `cyberpunk` are handled by breaking them down into sub-words (`engine`) and finding a relevant search space.
 
-2.  **Smart Reranking (The Scholar):** The retrieved candidates are then passed to a powerful **`sentence-transformer` model**. This model generates dense vector embeddings for the query and the candidate paragraphs. It then re-ranks this small subset based on deep semantic similarity, ensuring the final results are not just keyword matches but are contextually and conceptually the most relevant.
+2.  **Smart Reranking (The Scholar):** The retrieved candidates are then passed to a powerful **`sentence-transformer` model**. This model generates dense vector embeddings for the query and the candidate paragraphs. It then re-ranks this small subset based on deep semantic similarity, making sure that the final results are not just keyword matches but are contextually and conceptually the most relevant.
 
 This hybrid approach solves the critical challenges of search speed, relevance, and the handling of unknown concepts.
 
 ---
 ## Technologies & Core Concepts
-This project demonstrates proficiency in a range of essential data science and NLP tools and concepts:
+This project makes use of a range of essential DS & NLP tools and concepts:
 
 * **Python 3.9+**
 * **Information Retrieval:** TF-IDF Vectorization, Cosine Similarity.
