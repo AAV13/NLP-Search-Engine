@@ -9,7 +9,7 @@ A semantic search engine for the Gutenberg corpus, engineered to deliver fast, c
 
 ---
 ## About The Project
-A small hybrid search engine that combines keyword and semantic search. This learning project explores how search engines balance speed and meaning, demonstrating how traditional term-based retrieval and modern semantic techniques can work together.
+A small hybrid search engine that combines keyword and semantic search. This project explores how search engines balance speed and meaning, demonstrating how traditional term-based retrieval and modern semantic techniques can work together.
 
 The core of this project is a **two-stage search pipeline** that efficiently queries a dataset of over 1 million paragraphs extracted from 1000 classic books from the Gutenberg Dataset. The dataset contains 3000 books but for quicker execution time due to limited resources, the code uses 1000 books.
 
