@@ -9,9 +9,9 @@ A semantic search engine for the Gutenberg corpus, engineered to deliver fast, c
 
 ---
 ## About The Project
-Traditional keyword search is fast but lacks contextual understanding. Pure semantic search understands context but struggles with speed and out-of-vocabulary (OOV) terms. This project builds a hybrid system that captures the strengths of both paradigms.
+A small hybrid search engine combining keyword and semantic search. It’s a learning project that demonstrates how to merge fast term-based retrieval with meaning-aware similarity. This project attempts to understand how search engines balance speed and meaning and to show how traditional and modern techniques can work together.
 
-The core of this project is a **two-stage search pipeline** that efficiently queries a dataset of over 1 million paragraphs extracted from 1000 classic books from the Gutenber Dataset. The dataset contains 3000 books but for quicker execution time due to limited resources, the code uses 1000 books.
+The core of this project is a **two-stage search pipeline** that efficiently queries a dataset of over 1 million paragraphs extracted from 1000 classic books from the Gutenberg Dataset. The dataset contains 3000 books but for quicker execution time due to limited resources, the code uses 1000 books.
 
 ### Project Architecture
 
