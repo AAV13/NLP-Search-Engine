@@ -1,7 +1,7 @@
 # Hybrid Retriever-Reranker Semantic Search Engine
 
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Libraries](https://img.shields.io/badge/Libraries-HuggingFace%20%7C%%20%7C%20Scikit--learn-orange.svg)
+![Libraries](https://img.shields.io/badge/Libraries-HuggingFace%20%7C%20Scikit--learn-orange)
 
 Dataset Link: https://shibamoulilahiri.github.io/gutenberg_dataset.html
 
