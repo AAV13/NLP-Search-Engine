@@ -38,7 +38,7 @@ This project makes use of a range of essential DS & NLP tools and concepts:
 * **Core Libraries:** Scikit-learn, NumPy, Pickle.
 
 ---
-## Performance & Demo
+## 🚀Performance & ▶️Demo
 The final Retriever-Reranker model provides a significant improvement in both speed and relevance over naive approaches.
 
 * **Speed:** Initial query encoding takes a few seconds on a CPU, with all subsequent searches performing **sub-second retrieval and reranking**.
