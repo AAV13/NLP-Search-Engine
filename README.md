@@ -59,33 +59,6 @@ Auto-correct vocabulary built with 77149 words.
 --- Hybrid Search Engine Ready ---
 Enter your search query. Type 'exit' or 'quit' to end.
 
-Enter search query: lincold
-
---- Searching for: 'lincold' ---
-Did you mean: 'lincoln' instead of 'lincold'?
-Performing search with corrected query: 'lincoln'
-Search completed in 9.9659 seconds.
-
---- Top 10 Search Results ---
-
-[p_750184] Score: 0.6860 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN
-   Snippet: "His EXCELLENCY A. LINCOLN, President United States:
-
-[p_750160] Score: 0.6728 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN
-   Snippet: "His EXCELLENCY  A. LINCOLN,   President of the United States:
-...
-
-Enter search query: government
-
---- Searching for: 'government' ---
-Search completed in 3.6969 seconds.
-
---- Top 10 Search Results ---
-
-[p_945523] Score: 0.4510 | Book: SECOND TREATISE OF GOVERNMENT by JOHN LOCKE
-   Snippet: AN ESSAY CONCERNING THE TRUE ORIGINAL, EXTENT AND END OF CIVIL GOVERNMENT
-...
-
 Enter search query: cyberpunk
 
 --- Searching for: 'cyberpunk' ---
@@ -97,6 +70,88 @@ Enter search query:
 
 --- Searching for: '' ---
 Query is empty. Please try again.
+
+Enter search query: lincold
+
+--- Searching for: 'lincold' ---
+Did you mean: 'lincoln' instead of 'lincold'?
+Performing search with corrected query: 'lincoln'
+Search completed in 9.9659 seconds.
+
+--- Top 10 Search Results ---
+
+[p_750184] Score: 0.6860 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: "His EXCELLENCY A. LINCOLN, President United States:
+
+[p_750160] Score: 0.6728 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: "His EXCELLENCY   A. LINCOLN,   President of the United States:      
+
+[p_749677] Score: 0.6214 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: A. LINCOLN. By the President: WILLIAM H. SEWARD, Secretary of State. 
+
+[p_750247] Score: 0.6214 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: A. LINCOLN. By the President: WILLIAM H. SEWARD, Secretary of State. 
+
+[p_136522] Score: 0.5695 | Book: PERSONAL MEMOIRS OF U. S. GRANT, complete       
+   Snippet: Although hailing from Illinois myself, the State of the President, I 
+never met Mr. Lincoln until called to the capital to receive my commission as lieutenant-general.  I knew him, however, very well and favorably from the accounts 
+given by officers u...
+
+[p_284714] Score: 0.5579 | Book: THE SLEEPER AWAKES
+   Snippet: "You have the world to choose from," said Lincoln; "whatever you want is yours."
+
+[p_399388] Score: 0.5579 | Book: WHEN THE SLEEPER WAKES
+   Snippet: "You have the world to choose from," said Lincoln; "whatever you want is yours."
+
+[p_749197] Score: 0.5500 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: THE WRITINGS OF A. LINCOLN, Volume Seven, 1863-1865
+
+[p_276527] Score: 0.5431 | Book: WOODSTOCK; OR, THE CAVALIER
+   Snippet: "The same--Gentleman; of Squattlesea-mere, in the moist county of Lincoln."
+
+[p_629147] Score: 0.5413 | Book: BIOGRAPHIES OF WORKING MEN
+   Snippet: In 1861, the great storm burst over the States.  In the preceding November, Abraham Lincoln had been elected President.  Lincoln was himself, like Garfield, a self-made man, who had risen from the very same pioneer labourer class;--a wood-cutter and ...
+
+Enter search query: government
+
+--- Searching for: 'government' ---
+Search completed in 3.6969 seconds.
+
+--- Top 10 Search Results ---
+
+[p_945523] Score: 0.4510 | Book: SECOND TREATISE OF GOVERNMENT by JOHN LOCKE     
+   Snippet: AN ESSAY CONCERNING THE TRUE ORIGINAL, EXTENT AND END OF CIVIL GOVERNMENT
+
+[p_868682] Score: 0.4425 | Book: Mr. WELLS has also written the following novels:   Snippet: CLASS II. It is supposed that the common man _cannot_ govern, and that government therefore must be through the agency of Able Persons who may be classified under one of the following sub-heads, either as
+
+[p_256574] Score: 0.4403 | Book: THE MONIKINS
+   Snippet: "I find all this very extraordinary, your government being professedly a government of the mass!"
+
+[p_231328] Score: 0.4151 | Book: BOHN'S STANDARD LIBRARY
+   Snippet: _Addison_. The greatest theorists ... among those very people [the Greeks and Romans,] have given the preference to such a form of government, as that which obtains in this kingdom.--_Swift_. Yet, this we see is liable to be wholly corrupted.
+
+[p_494799] Score: 0.3863 | Book: THE FRENCH REVOLUTION
+   Snippet: GOVERNMENT, Maurepas's, bad state of French, French revolutionary, Danton on.
+
+[p_229387] Score: 0.3674 | Book: THE
+   Snippet: "God help the nation where self-government, in its literal sense, exists, Hugh! The term is conventional, and, properly viewed, means a government in 
+which the source of authority is the body of the nation, and does not come from any other sovereign....
+
+[p_983673] Score: 0.3669 | Book: THE
+   Snippet: _Cur._ I'll make it out: Rebellion is an insurrection against the government; but they that have the power are actually the government; therefore, if 
+the people have the power, the rebellion is in the king.
+
+[p_446460] Score: 0.3628 | Book: THE TEACHER:
+   Snippet: Or let us imagine the following scene to have been the commencement of the introduction of the principle of limited self-government, into a school.   
+
+[p_749336] Score: 0.3541 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: I commend the benevolent institutions established or patronized by the Government in this District to your generous and fostering care.
+
+[p_761649] Score: 0.3397 | Book: THE PAPERS AND WRITINGS OF ABRAHAM LINCOLN      
+   Snippet: There was a collateral object in the introduction of that Nebraska policy, which was to clothe the people of the Territories with a superior degree of self-government, beyond what they had ever had before. The first object and the 
+main one of conferr...
+
+Enter search query:
 ```
 </details>
 
