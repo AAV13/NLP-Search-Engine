@@ -33,7 +33,6 @@ This project makes use of a range of essential DS & NLP tools and concepts:
     * **Hugging Face `tokenizers`:** For training and implementing a Byte-Pair Encoding (BPE) tokenizer from scratch.
     * **Levenshtein Distance:** For implementing a custom auto-correct feature.
 * **High-Performance Computing:**
-    * **FAISS (Facebook AI Similarity Search):** For building and searching an efficient Approximate Nearest Neighbor (ANN) index.
     * **Google Colab (GPU):** For accelerating the computationally expensive model training and indexing pipeline.
 * **Core Libraries:** Scikit-learn, NumPy, Pickle.
 
@@ -161,7 +160,7 @@ This project was an opportunity to move beyond basic NLP tutorials and engage wi
 
 * **Architectural Design:** I designed and implemented a sophisticated **Retriever-Reranker pipeline**, demonstrating an understanding of how to balance trade-offs between speed (TF-IDF) and semantic accuracy (Transformers).
 * **End-to-End NLP Workflow:** I handled the entire NLP pipeline: sourcing raw data, extensive text preprocessing, training a custom BPE tokenizer, building multiple complex indexes (sparse TF-IDF and dense FAISS), and developing the final application logic.
-* **Performance Optimization:** I identified and fixed performance bottlenecks. The initial 15-second search time was reduced to sub-second speeds by implementing a **FAISS** index. The multi-hour model indexing time was reduced to minutes by leveraging **GPU acceleration in a cloud environment (Google Colab)**.
+* **Performance Optimization:** I identified and fixed performance bottlenecks. The multi-hour model indexing time was reduced to minutes by leveraging **GPU acceleration in a cloud environment (Google Colab)**.
 * **Problem Analysis:** I diagnosed and explained complex model behaviors, such as the semantic model's failure on OOV terms (`cyberpunk`), its weird but predictable results for gibberish queries and for empty queries.
 
 ---
